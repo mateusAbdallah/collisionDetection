@@ -32,6 +32,12 @@ public class MyFrame extends JFrame {
 		
 		player.draw(g);
 		enemy.draw(g);
+		
+		if(gameOver) {
+			g.setColor(Color.RED);
+			g.setFont(new Font("Sans-serif", Font.PLAIN, 45));
+			g.drawString("Game Over", 150, 100);
+		}
 	}
 	
 	public class AL extends KeyAdapter {
