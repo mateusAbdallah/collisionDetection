@@ -7,3 +7,5 @@
   - [x] Create methods to get the key event and draw a rectangle
   - [x] Create method to check the collision
   
+
+![image](https://github.com/mateusAbdallah/collisionDetection/assets/92052001/dc6c9870-3280-4b70-a453-614d65ac24e6)
