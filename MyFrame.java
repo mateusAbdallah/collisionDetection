@@ -50,6 +50,7 @@ public class MyFrame extends JFrame {
 	public class AL extends KeyAdapter {
 		@Override
 		public void keyPressed(KeyEvent e) {
+			enemy.setLocation(70, 150);
 			player.keyPressed(e);
 			checkCollision();
 			repaint();
